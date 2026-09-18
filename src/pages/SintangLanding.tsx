@@ -72,16 +72,12 @@ export default function SintangLanding() {
             </div>
             <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {[
-                ['Mansion','Property · Hotel · Villa','https://demos.sitepad.com/Mansion/'],
-                ['Nesto','Property · Developer','https://demos.sitepad.com/Nesto/'],
                 ['LuxeNest','Interior · Architecture','https://demos.sitepad.com/LuxeNest/'],
-                ['Aqueous','Company Profile · Business','https://demos.sitepad.com/Aqueous/'],
-                ['BizNest','Consulting · Corporate','https://demos.sitepad.com/BizNest/'],
-                ['Composite','Agency · Creative Business','https://demos.sitepad.com/Composite/'],
-                ['Therapeutic','Clinic · Doctor · Healthcare','https://demos.sitepad.com/Therapeutic/'],
-                ['Zentro','Restaurant · Café','https://demos.sitepad.com/ZENTRO/'],
+                ['Mansion','Property · Hotel · Villa','https://demos.sitepad.com/Mansion/'],
                 ['Travio','Travel · Tour Agency','https://demos.sitepad.com/Travio/'],
-                ['Triptales','Travel · Tour Packages','https://demos.sitepad.com/Triptales/'],
+                ['Zentro','Restaurant · Café','https://demos.sitepad.com/ZENTRO/'],
+                ['Nesto','Property · Developer','https://demos.sitepad.com/Nesto/'],
+                ['Therapeutic','Clinic · Doctor · Healthcare','https://demos.sitepad.com/Therapeutic/'],
               ].map(([name,category,url])=>(
                 <a key={name} href={url} target="_blank" rel="noopener noreferrer" className="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-900/10">
                   <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
